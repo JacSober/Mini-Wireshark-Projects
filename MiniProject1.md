@@ -18,10 +18,10 @@ https://www.malware-traffic-analysis.net/2025/01/22/index.html
 of it in a folder labled “PCAP Files” in the initial directory of your C: Drive.
 This will make it very easy to find the packet later.
 
-● What to do: Open the packet capture ( exercise 2025-01-22) in Wireshark.
-● Why it matters: Packet captures provide us with real-time network data,
+● Open the packet capture ( exercise 2025-01-22) in Wireshark.
+● Packet captures provide us with real-time network data,
 which helps us identify patterns and possible threats.
-● How to do it:
+
 1. Open the packet capture in Wireshark.
 2. Go to Statistics > Conversations to see a summary of all the
 conversations (communications) between IP addresses. This will
@@ -52,7 +52,7 @@ indicate something malicious, such as a compromised device or a
 DDoS attack.
 
 Step 3: Understanding the Importance of Conversations Window
-● Why it matters: The Conversations window gives us an overview of all the
+● The Conversations window gives us an overview of all the
 communication happening in a network. This can help us quickly identify
 anomalies (like strange IP communication patterns or unexpected traffic
 spikes), which are often indicators of suspicious activity.
@@ -126,12 +126,12 @@ suspicious IP address.
 
 3. Summary
 
-● Why suspicious IPs Matter: Identifying unusual IPs or traffic spikes can
+● Identifying unusual IPs or traffic spikes can
 help detect malicious behavior or a compromised device on the network.
 By using Wireshark's Conversations window, we can easily pinpoint these
 outliers and investigate further.
 
-● Protocols for Hostnames: Knowing which protocols provide hostnames
+● Knowing which protocols provide hostnames
 (like DNS, LLMNR, NetBIOS, mDNS) helps us identify the devices
 associated with suspicious IPs, allowing us to better assess whether the
 device is legitimate or malicious.
@@ -144,7 +144,7 @@ Some of the THM modules can get a little rough at times, so don’t be afraid
 to look-up the THM walkthroughs on Medium when you’ve started to
 become frustrated with some of the problems/exercises.
 If you feel comfortable enough to tackle the exercise from the
-malware-traffic-analysis website, feel free! It can be a quite difficult for
+malware-traffic-analysis website, feel free! It can be quite difficult for
 those brand-new to wireshark.
 
 5. Project Conclusion
