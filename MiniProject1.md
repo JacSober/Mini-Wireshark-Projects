@@ -37,8 +37,8 @@ is what’s really going to show us which IP is communicating the
 most, and by what amount.
 
 Step 2: Using the Conversations Window to Find Suspicious IPs
-● What to do: Look at the IPs listed in the Conversations window.
-● Why it matters: The Conversations window shows us all the interactions
+● Look at the IPs listed in the Conversations window.
+● The Conversations window shows us all the interactions
 between devices on the network, allowing us to spot outliers or
 irregularities.
 ● What to look for:
@@ -121,7 +121,7 @@ to that IP, so we will have to find another way to find the real hostname.
 1. Use the filters to catch LLMNR name resolution packets.
 2. These packets can show you the names of devices on the network.
 3. Now we can see there are only 6 packets displayed, all of which have
-the same hostname, and 4 of them are directly involved with out
+the same hostname, and 4 of them are directly involved with our
 suspicious IP address.
 
 3. Summary
